@@ -1,12 +1,5 @@
 
-stypescript:S1128"*Remove this unused import of 'NavbarMenu'.(ÀÃóé8”Ìµ˜2J$5bdb15f7-d998-4c2c-a3e2-ec8feb540302
-wtypescript:S1128".Remove this unused import of 'NavbarMenuItem'.(¦ÜäŞ8•Ìµ˜2J$23325074-0155-4a8b-bfa1-10b859a483de
-xtypescript:S1128"*Remove this unused import of 'linkStyles'.(·ˆîÿÿÿÿÿ8•Ìµ˜2J$0278f889-792f-4b71-9094-4b3ac2c92836
-rtypescript:S1128"$Remove this unused import of 'clsx'.(‰›öÏÿÿÿÿÿ8•Ìµ˜2J$1289eef2-a313-4024-a77e-591f14f05b15
-ytypescript:S1128"+Remove this unused import of 'TwitterIcon'.(­Úš’ùÿÿÿÿ8•Ìµ˜2J$aa188d29-2158-4e05-9dd7-d6b2748ce0d7
-ttypescript:S1128"+Remove this unused import of 'DiscordIcon'.(Ã›±³8•Ìµ˜2J$b3f9ced6-6fda-48cc-b1c0-58330ffa1cd0
-}typescript:S1128"/Remove this unused import of 'HeartFilledIcon'.(÷Ä¥³ÿÿÿÿÿ8•Ìµ˜2J$561f7ae0-8be7-4604-96c1-7242d32f27ae
-utypescript:S3863"-'@/components/icons' imported multiple times.(şÒc8–Ìµ˜2J$9ce74446-88fc-4c92-9c95-12b1076dd2fd
-rtypescript:S1128"$Remove this unused import of 'Logo'.(‹ïÀ…úÿÿÿÿ8–Ìµ˜2J$2af739f5-bd78-4ec9-92bc-db005d674c68
-{typescript:S3863"-'@/components/icons' imported multiple times.(‹ïÀ…úÿÿÿÿ8–Ìµ˜2J$50e42eeb-99ef-41e7-a903-f6cb48375ead
-‡typescript:S1854"9Remove this useless assignment to variable "searchInput".(ÿĞĞüÿÿÿÿ8–Ìµ˜2J$486645e3-7c6b-4efb-92a8-85d8d1566c39
+ntypescript:S1128"%Remove this unused import of 'Input'.(ËÓß 8şıó˜2J$943cece8-065f-4bed-82c0-bd76db0255a6
+ltypescript:S1128"#Remove this unused import of 'Kbd'.(Ììÿö8şıó˜2J$c9bb05c7-60ee-4f6c-811f-6f4169321566
+xtypescript:S1128"*Remove this unused import of 'SearchIcon'.(¶…†áşÿÿÿÿ8şıó˜2J$96e58ed8-f49a-4e12-93a5-b87f54c97b8d
+Ntypescript:S1128"+Remove this unused import of 'ThemeSwitch'.(Ä×ßò8‘¶İ›2

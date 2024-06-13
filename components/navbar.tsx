@@ -1,52 +1,19 @@
 import {
   Button,
+  Input,
   Kbd,
   Link,
-  Input,
   Navbar as NextUINavbar,
-  NavbarContent,
-  NavbarMenu,
-  NavbarMenuToggle,
   NavbarBrand,
+  NavbarContent,
   NavbarItem,
-  NavbarMenuItem,
-  link as linkStyles,
+  NavbarMenuToggle
 } from "@nextui-org/react";
 import NextLink from "next/link";
-import clsx from "clsx";
-
-import { siteConfig } from "@/config/site";
+import { SearchIcon } from "@/components/icons";
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  TwitterIcon,
-  GithubIcon,
-  DiscordIcon,
-  HeartFilledIcon,
-  SearchIcon,
-} from "@/components/icons";
-import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
-  const searchInput = (
-    <Input
-      aria-label="Search"
-      classNames={{
-        inputWrapper: "bg-default-100",
-        input: "text-sm",
-      }}
-      endContent={
-        <Kbd className="hidden lg:inline-block" keys={["command"]}>
-          K
-        </Kbd>
-      }
-      labelPlacement="outside"
-      placeholder="Search..."
-      startContent={
-        <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
-      }
-      type="search"
-    />
-  );
 
   return (
     <NextUINavbar maxWidth="xl" position="sticky">
@@ -67,8 +34,8 @@ export const Navbar = () => {
         <NavbarItem className="hidden sm:flex gap-2">
           <Button
             radius="full"
-            className="border-2 btn btn-outline border-lime bg-blueMidnight text-lime">
-            <Link isExternal href={siteConfig.links.twitter}>
+            className="border-2 btn btn-outline border-lime bg-blueMidnight">
+            <Link className="text-lime">
               Je suis organisateur
             </Link>
           </Button>
@@ -76,10 +43,13 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal href={siteConfig.links.github}>
-          <GithubIcon className="text-default-500" />
-        </Link>
-        <ThemeSwitch />
+        <Button
+          radius="full"
+          className="border-2 btn btn-outline border-lime bg-blueMidnight">
+          <Link className="text-lime">
+            Je suis organisateur
+          </Link>
+        </Button>
         <NavbarMenuToggle />
       </NavbarContent>
     </NextUINavbar>
