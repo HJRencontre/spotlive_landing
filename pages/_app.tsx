@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <NextUIProvider navigate={router.push}>
-      <NextThemesProvider attribute="class" defaultTheme="dark">
+      <NextThemesProvider>
         <Component {...pageProps} />
       </NextThemesProvider>
     </NextUIProvider>
