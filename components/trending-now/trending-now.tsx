@@ -1,6 +1,8 @@
 import { Image } from "@nextui-org/image";
 import Avatars from "./avatars";
 
+const description =
+  "Le Théâtre du Rond-Point, à Paris, est un haut lieu de la création contemporaine, connu pour sa programmation audacieuse. Il est dédié aux auteurs vivants et propose une trentaine de spectacles par an. En plus de ses spectacles innovants, il abrite un restaurant, offrant une expérience culturelle et gastronomique complète.";
 export default function TrendingNow() {
   return (
     <>
@@ -18,14 +20,7 @@ export default function TrendingNow() {
               <p className="text-2xl">5€</p>
             </div>
             <h5 className="text-4xl">Théâtre du Rond-Point</h5>
-            <p className="text-justify">
-              Le Théâtre du Rond-Point, à Paris, est un haut lieu de la création
-              contemporaine, connu pour sa programmation audacieuse. Il est
-              dédié aux auteurs vivants et propose une trentaine de spectacles
-              par an. En plus de ses spectacles innovants, il abrite un
-              restaurant, offrant une expérience culturelle et gastronomique
-              complète.
-            </p>
+            <p className="text-justify">{description}</p>
           </div>
         </div>
         <Image alt="NextUI hero Image" src="theaters.png" />
