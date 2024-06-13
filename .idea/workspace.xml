@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf332b60-1e82-4afc-afb0-680ab1936aba" name="Changes" comment="" />
+    <list default="true" id="bf332b60-1e82-4afc-afb0-680ab1936aba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/SpotliveValues.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/features.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modal-join-waitlist.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spotlive-values.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/trending-now/avatars.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/trending-now/trending-now.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mapsketch2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a89fc1e301156e0cce3c97857ca7b934f6c4ac6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a89fc1e301156e0cce3c97857ca7b934f6c4ac6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/site.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/site.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/docs/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pricing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/organizer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -43,6 +72,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/trending-now" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305648712</updated>
-      <workItem from="1718305653927" duration="1235000" />
+      <workItem from="1718305653927" duration="7259000" />
     </task>
     <servers />
   </component>
