@@ -9,7 +9,7 @@ export default function IndexPage() {
   return (
     <DefaultLayout>
       <section className="gap-4 py-8 md:py-10">
-        <div className="py-52">
+        <div className="py-20 lg:py-52">
           <div className="lg:flex-row-reverse">
             <div className="flex">
               <h1 className="font-poppins text-left text-5xl font-bold lg:w-96">
@@ -28,7 +28,7 @@ export default function IndexPage() {
               et réinvente votre expérience culturelle
               <img
                 alt="Présentation"
-                className="max-w-sm"
+                className="w-auto lg:w-96"
                 src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/mapsketch.png"
               />
             </p>
