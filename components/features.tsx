@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const features =
   "Spotlive propose une gamme de fonctionnalités conçues pour enrichir l'expérience culturelle de ses utilisateurs, grâce à une une personnalisation basée sur les thématiques et les programmes correspondant à leurs intérêts.";
 const discoverPlaces =
@@ -16,7 +18,7 @@ export default function Features() {
       </div>
       <div className="lg:grid grid-cols-2 items-center">
         <figure>
-          <img
+          <Image
             alt="Album"
             src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/emplacement.png"
           />
@@ -36,7 +38,7 @@ export default function Features() {
           <p className="text-justify">{ticketing}</p>
         </div>
         <figure>
-          <img
+          <Image
             alt="Album"
             src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/billetterie.png"
           />
@@ -44,7 +46,7 @@ export default function Features() {
       </div>
       <div className="lg:grid grid-cols-2 items-center">
         <figure>
-          <img
+          <Image
             alt="Album"
             src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/keepintouch.png"
           />

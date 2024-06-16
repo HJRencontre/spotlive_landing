@@ -1,4 +1,5 @@
 import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/react";
+import Image from "next/image";
 
 export default function Recommandations() {
   const recommandations = [
@@ -45,7 +46,7 @@ export default function Recommandations() {
       <div className="flex flex-col items-center justify-center gap-8 lg:flex-row lg:items-start lg:gap-8">
         {recommandations.map((recommandation, index) => (
           <div key={index} className="flex flex-col items-center">
-            <img
+            <Image
               alt="5 stars"
               className="h-6 mb-4"
               src={recommandation.stars}
@@ -61,7 +62,7 @@ export default function Recommandations() {
 
               <CardFooter className="gap-3">
                 <div className="flex flex-col items-center gap-5">
-                  <img
+                  <Image
                     alt="Avatar"
                     className="w-16 h-16 rounded-full items-start"
                     src={recommandation.avatar}

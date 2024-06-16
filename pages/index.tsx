@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import Features from "@/components/features";
 import ModalJoinWaitlist from "@/components/modal-join-waitlist";
 import Recommandations from "@/components/recommandations/recommandations";
@@ -15,7 +17,7 @@ export default function IndexPage() {
               <h1 className="font-poppins text-left text-5xl font-bold lg:w-96">
                 La culture à portée de pas.
               </h1>
-              <img
+              <Image
                 alt="Présentation"
                 className="h-20 w-64 justify-start"
                 src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/titlewavesketch.png"
@@ -26,7 +28,7 @@ export default function IndexPage() {
               <br />
               Avec Spotlive, une nouvelle vague pousse les portes de la culture
               et réinvente votre expérience culturelle
-              <img
+              <Image
                 alt="Présentation"
                 className="w-auto lg:w-96"
                 src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/mapsketch.png"
