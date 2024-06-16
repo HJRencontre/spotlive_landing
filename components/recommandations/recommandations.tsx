@@ -27,7 +27,7 @@ export default function Recommandations() {
       date: "12 juin 2024",
       avatar: "https://nextui.org/avatars/avatar-2.png",
       content:
-        "Avant la pièce mes amis et moi avons exploré la bibliothèque, une vraie mine d’or littéraire ! La pièce était exceptionnelle, avec des acteurs époustouflants. Après le spectacle, nous avons prolongé la soirée au bar, où l’ambiance était super conviviale. Une soirée parfaite du début à la fin !",
+        "Avant la pièce mes amis et moi avons exploré la bibliothèque, une vraie mine d’or littéraire ! La pièce était exceptionnelle, avec des acteurs époustouflants. Après le spectacle, nous avons prolongé la soirée au bar, où l’ambiance était super conviviale!",
     },
     {
       username: "Antoine.G",
@@ -41,7 +41,7 @@ export default function Recommandations() {
   return (
     <div className="flex flex-col items-center justify-center gap-8 lg:flex-row lg:items-start lg:gap-8">
       {recommandations.map((recommandation, index) => (
-        <Card key={index} className="w-[300px] h-72">
+        <Card key={index} className="w-[300px] lg:h-96 bg-white p-5 sm:h-72">
           <CardHeader></CardHeader>
           <CardBody className="px-3 py-0 text-small text-default-400">
             <p className="text-justify">{recommandation.content}</p>
@@ -55,7 +55,7 @@ export default function Recommandations() {
             />
             <div className="flex gap-5">
               <div className="flex flex-col gap-1 items-start justify-center">
-                <h4 className="text-small font-semibold leading-none text-default-600">
+                <h4 className="text-small font-semibold leading-none text-blueMidnight">
                   {recommandation.username}
                 </h4>
                 <h5 className="text-small tracking-tight text-default-400">

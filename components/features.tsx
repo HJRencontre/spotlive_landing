@@ -19,8 +19,8 @@ export default function Features() {
       <div className="lg:grid grid-cols-2 items-center">
         <figure>
           <img
-            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/emplacement.png"
             alt="Album"
+            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/emplacement.png"
           />
         </figure>
         <div className="card-body">
@@ -39,23 +39,23 @@ export default function Features() {
         </div>
         <figure>
           <img
-            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/billetterie.png"
             alt="Album"
+            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/billetterie.png"
           />
         </figure>
       </div>
       <div className="lg:grid grid-cols-2 items-center">
         <figure>
           <img
-            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/keepintouch.png"
             alt="Album"
+            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/keepintouch.png"
           />
         </figure>
         <div className="card-body flex flex-col justify-center">
           <h2 className="font-bold card-title text-lime text-2xl">
             Restez informés
           </h2>
-          <p className="text-justify">{}</p>
+          <p className="text-justify">{keepInTouch}</p>
         </div>
       </div>
     </>

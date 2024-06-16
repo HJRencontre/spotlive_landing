@@ -9,23 +9,22 @@ export default function IndexPage() {
   return (
     <DefaultLayout>
       <section className="flex flex-col gap-4 py-8 md:py-10">
-        <div className="flex-col hero-content lg:flex-row-reverse">
+        <div className="lg:flex-row-reverse">
           <img
-            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/mapsketch.png"
-            className="max-w-sm rounded-lg"
             alt="Présentation"
+            className="max-w-sm rounded-lg"
+            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/mapsketch.png"
           />
           <div>
-            <div className="grid grid-cols-2">
-              <h1 className="text-left text-5xl font-bold">
-                La culture à portée de pas
-              </h1>
+            <div className="flex">
+              <h1 className="text-left text-5xl font-bold">La culture</h1>
               <img
+                alt="Présentation"
                 className="h-20 w-64 origin-top-left justify-start"
                 src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/titlewavesketch.png"
-                alt="Présentation"
               />
             </div>
+            <h1 className="text-left text-5xl font-bold">à portée de pas</h1>
             <p className="py-6 text-left">
               Réservez vos places, visionnez des vidéos exclusives de ces lieux
               et plongez dans une experience culture inoubliable !
