@@ -1,8 +1,9 @@
-import { Button } from "@nextui-org/react";
+import { Button, Spacer } from "@nextui-org/react";
+import Link from "next/link";
+
 import { Head } from "./head";
 
 import { Navbar } from "@/components/navbar";
-import Link from "next/link";
 
 export default function DefaultLayout({
   children,
@@ -16,20 +17,24 @@ export default function DefaultLayout({
       <main className="container mx-auto max-w-5xl px-6 flex-grow pt-16">
         {children}
       </main>
-      <footer className="container mx-auto max-w-5xl px-6 pt-16 justify-center items-center">
-        <div className="bg-lime text-blueMidnight">
+      <footer>
+        <div className="bg-lime text-blueMidnight flex flex-col items-center justify-center py-16">
           <h1 className="font-bold text-5xl">Nous rejoindre</h1>
-          <p className="mt-4">
+          <p className="mt-4 text-center py-4">
             Vous êtes un théâtre et souhaitez rejoindre Spotlive ou avez des
             questions ?
           </p>
           <Button className="bg-blueMidnight">
-            <Link href="" className="text-lime">
+            <Link className="text-lime" href="/organizer">
               Contactez-nous
             </Link>
           </Button>
         </div>
-        <div>Wesh</div>
+
+        <div className="bg-white text-blueMidnight flex flex-col items-center justify-center py-16">
+          <p className="py-2">©2024 Spotlive</p>
+          <Spacer className="bg-grey w-full" y={0} />
+        </div>
       </footer>
     </div>
   );

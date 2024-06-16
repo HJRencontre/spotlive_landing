@@ -1,4 +1,3 @@
-import { Spacer } from "@nextui-org/spacer";
 const features =
   "Spotlive propose une gamme de fonctionnalités conçues pour enrichir l'expérience culturelle de ses utilisateurs, grâce à une une personnalisation basée sur les thématiques et les programmes correspondant à leurs intérêts.";
 const discoverPlaces =
@@ -11,10 +10,9 @@ const keepInTouch =
 export default function Features() {
   return (
     <>
-      <div>
-        <h4>Fonctionnalités</h4>
-        <Spacer y={10} />
-        <p>{features}</p>
+      <div className="flex flex-col gap-8 justify-center items-center text-center mx-auto my-auto">
+        <h4 className="text-5xl">Fonctionnalités</h4>
+        <p className="text-2xl">{features}</p>
       </div>
       <div className="lg:grid grid-cols-2 items-center">
         <figure>
