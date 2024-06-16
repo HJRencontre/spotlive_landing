@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image, Spacer } from "@nextui-org/react";
 
 import Features from "@/components/features";
 import ModalJoinWaitlist from "@/components/modal-join-waitlist";
@@ -17,34 +17,29 @@ export default function IndexPage() {
               <h1 className="font-poppins text-left text-5xl font-bold lg:w-96">
                 La culture à portée de pas.
               </h1>
-              <Image
-                alt="Présentation"
-                className="h-20 w-64 justify-start"
-                src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/titlewavesketch.png"
-              />
+              <Image alt="Présentation" src="/wave.png" width={300} />
             </div>
-            <p className="flex-row py-2text-left justify-center items-center lg:flex">
-              Envie de vivre la culture locale de manière unique et immersive ?{" "}
-              <br />
-              Avec Spotlive, une nouvelle vague pousse les portes de la culture
-              et réinvente votre expérience culturelle
-              <Image
-                alt="Présentation"
-                className="w-auto lg:w-96"
-                src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/mapsketch.png"
-              />
-            </p>
+            <div className="lg:grid grid-cols-2 items-center">
+              <p className="py-6">
+                Envie de vivre la culture locale de manière unique et immersive
+                ? <br />
+                Avec Spotlive, une nouvelle vague pousse les portes de la
+                culture et réinvente votre expérience culturelle
+              </p>
+              <Image alt="Présentation" src="/map.png" width={800} />
+            </div>
           </div>
-          <div className="flex gap-3">
+          <Spacer y={8} />
+          <div className="flex justify-center items-center lg:block">
             <ModalJoinWaitlist />
           </div>
         </div>
         <SpotliveValues />
-        <div className="py-8" />
+        <Spacer y={40} />
         <TrendingNow />
-        <div className="py-8" />
+        <Spacer y={40} />
         <Features />
-        <div className="py-8" />
+        <Spacer y={40} />
         <Recommandations />
       </section>
     </DefaultLayout>

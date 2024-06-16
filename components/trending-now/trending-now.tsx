@@ -10,7 +10,7 @@ export default function TrendingNow() {
   return (
     <>
       <h4 className="font-bold card-title lg:text-6xl text-3xl">À la une</h4>
-      <div className="lg:grid grid-cols-2 gap-[170px]">
+      <div className="flex flex-col justify-center items-center lg:grid grid-cols-2 gap-8">
         <div>
           <div>
             <div className="flex justify-between my-10">

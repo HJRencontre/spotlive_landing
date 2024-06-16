@@ -18,7 +18,7 @@ export default function DefaultLayout({
         {children}
       </main>
       <footer>
-        <div className="bg-lime text-blueMidnight flex flex-col items-center justify-center py-16">
+        <div className="bg-lime text-blueMidnight flex flex-col items-center justify-center py-16 px-2">
           <h1 className="font-bold text-5xl">Nous rejoindre</h1>
           <p className="mt-4 text-center py-4">
             Vous êtes un théâtre et souhaitez rejoindre Spotlive ou avez des

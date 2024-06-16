@@ -11,7 +11,7 @@ export default function ModalJoinWaitlist() {
 
   return (
     <>
-      <Button className="rounded-full px-20 bg-blueElectric">
+      <Button className="rounded-full px-20 bg-blueElectric text-white">
         Me tenir au courant
       </Button>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange}>

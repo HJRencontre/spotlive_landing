@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image, Spacer } from "@nextui-org/react";
 
 const features =
   "Spotlive propose une gamme de fonctionnalités conçues pour enrichir l'expérience culturelle de ses utilisateurs, grâce à une une personnalisation basée sur les thématiques et les programmes correspondant à leurs intérêts.";
@@ -12,46 +12,44 @@ const keepInTouch =
 export default function Features() {
   return (
     <>
-      <div className="flex flex-col gap-8 justify-center items-center text-center mx-auto my-auto">
-        <h4 className="text-5xl">Fonctionnalités</h4>
+      <div className="flex flex-col gap-8 justify-center items-center text-center mx-auto my-auto pb-8">
+        <h4 className="text-5xl font-bold">Fonctionnalités</h4>
         <p className="text-2xl">{features}</p>
       </div>
-      <div className="lg:grid grid-cols-2 items-center">
-        <figure>
-          <Image
-            alt="Album"
-            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/emplacement.png"
-          />
-        </figure>
-        <div className="card-body">
+      <div className="lg:grid grid-cols-2 items-center justify-center">
+        <Image
+          alt="Album"
+          className="max-h-[300px] lg:h-auto"
+          src="/mapphone.png"
+        />
+        <div className="flex flex-col justify-center">
           <h2 className="font-bold card-title text-lime text-2xl">
             (Re)découvrir les lieux
           </h2>
           <p className="text-justify">{discoverPlaces}</p>
         </div>
       </div>
-      <div className="lg:grid grid-cols-2 items-center">
-        <div className="card-body">
+      <Spacer y={2} />
+      <div className="flex flex-col-reverse lg:grid grid-cols-2 items-center ">
+        <div className="flex flex-col justify-center">
           <h2 className="font-bold card-title text-lime text-2xl">
             Billetterie
           </h2>
           <p className="text-justify">{ticketing}</p>
         </div>
-        <figure>
-          <Image
-            alt="Album"
-            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/billetterie.png"
-          />
-        </figure>
+        <Image
+          alt="Album"
+          className="max-h-[300px] lg:h-auto"
+          src="/representationapp.png"
+        />
       </div>
       <div className="lg:grid grid-cols-2 items-center">
-        <figure>
-          <Image
-            alt="Album"
-            src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/keepintouch.png"
-          />
-        </figure>
-        <div className="card-body flex flex-col justify-center">
+        <Image
+          alt="Album"
+          className="max-h-[300px] lg:h-auto"
+          src="appphone.png"
+        />
+        <div className="flex flex-col justify-center">
           <h2 className="font-bold card-title text-lime text-2xl">
             Restez informés
           </h2>
