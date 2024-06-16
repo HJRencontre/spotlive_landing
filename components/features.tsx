@@ -20,7 +20,7 @@ export default function Features() {
         <Image
           alt="Album"
           className="max-h-[300px] lg:h-auto"
-          src="/mapphone.png"
+          src="mapphone.png"
         />
         <div className="flex flex-col justify-center">
           <h2 className="font-bold card-title text-lime text-2xl">
@@ -40,7 +40,7 @@ export default function Features() {
         <Image
           alt="Album"
           className="max-h-[300px] lg:h-auto"
-          src="/representationapp.png"
+          src="representationapp.png"
         />
       </div>
       <div className="lg:grid grid-cols-2 items-center">

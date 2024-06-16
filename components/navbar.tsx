@@ -19,7 +19,7 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="max-w-fit">
           <NextLink className="flex justify-start items-center" href="/">
-            <Image alt="Logo" src="/spotlive.png" width={300} />
+            <Image alt="Logo" src="spotlive.png" width={300} />
           </NextLink>
         </NavbarBrand>
       </NavbarContent>

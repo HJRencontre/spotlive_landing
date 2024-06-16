@@ -17,7 +17,7 @@ export default function IndexPage() {
               <h1 className="font-poppins text-left text-5xl font-bold lg:w-96">
                 La culture à portée de pas.
               </h1>
-              <Image alt="Présentation" src="/wave.png" width={300} />
+              <Image alt="Présentation" src="wave.png" width={300} />
             </div>
             <div className="lg:grid grid-cols-2 items-center">
               <p className="py-6">
@@ -26,7 +26,7 @@ export default function IndexPage() {
                 Avec Spotlive, une nouvelle vague pousse les portes de la
                 culture et réinvente votre expérience culturelle
               </p>
-              <Image alt="Présentation" src="/map.png" width={800} />
+              <Image alt="Présentation" src="map.png" width={800} />
             </div>
           </div>
           <Spacer y={8} />
