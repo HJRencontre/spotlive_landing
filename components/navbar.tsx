@@ -8,18 +8,22 @@ import {
   Navbar as NextUINavbar,
 } from "@nextui-org/react";
 import NextLink from "next/link";
+import { useRouter } from "next/router";
 
 export const Navbar = () => {
+  const router = useRouter();
+  const bgColor = "bg-blueMidnight";
+
   return (
     <NextUINavbar
-      className="bg-blueMidnight lg:py-10 py-5"
+      className={`${bgColor} lg:py-10 py-5`}
       maxWidth="xl"
       position="sticky"
     >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="max-w-fit">
           <NextLink className="flex justify-start items-center" href="/">
-            <Image alt="Logo" src="spotlive.png" width={300} />
+            <Image alt="Logo" src="/spotlive.png" width={300} />
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
@@ -28,7 +32,33 @@ export const Navbar = () => {
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
       >
-        <NavbarItem className="hidden sm:flex">
+        {router.pathname !== "/organizer" ? (
+          <NavbarItem className="hidden sm:flex">
+            <Link href="/organizer">
+              <Button
+                className="border-2 btn btn-outline text-lime border-lime bg-blueMidnight"
+                radius="full"
+              >
+                Je suis organisateur
+              </Button>
+            </Link>
+          </NavbarItem>
+        ) : (
+          <NavbarItem className="hidden sm:flex">
+            <Button
+              className="border-2 btn btn-outline border-blueMidnight bg-lime"
+              radius="full"
+            >
+              <Link className="text-blueMidnight" href="/">
+                Je suis spectateur
+              </Link>
+            </Button>
+          </NavbarItem>
+        )}
+      </NavbarContent>
+
+      {router.pathname !== "/organizer" ? (
+        <NavbarContent className="sm:hidden" justify="end">
           <Button
             className="border-2 btn btn-outline border-lime bg-blueMidnight"
             radius="full"
@@ -37,19 +67,19 @@ export const Navbar = () => {
               Je suis organisateur
             </Link>
           </Button>
-        </NavbarItem>
-      </NavbarContent>
-
-      <NavbarContent className="sm:hidden" justify="end">
-        <Button
-          className="border-2 btn btn-outline border-lime bg-blueMidnight"
-          radius="full"
-        >
-          <Link className="text-lime" href="/organizer">
-            Je suis organisateur
-          </Link>
-        </Button>
-      </NavbarContent>
+        </NavbarContent>
+      ) : (
+        <NavbarContent className="sm:hidden" justify="end">
+          <Button
+            className="border-2 btn btn-outline border-blueMidnight bg-lime"
+            radius="full"
+          >
+            <Link className="text-blueMidnight" href="/organizer">
+              Je suis organisateur
+            </Link>
+          </Button>
+        </NavbarContent>
+      )}
     </NextUINavbar>
   );
 };

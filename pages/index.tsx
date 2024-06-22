@@ -31,7 +31,7 @@ export default function IndexPage() {
           </div>
           <Spacer y={8} />
           <div className="flex justify-center items-center lg:block">
-            <ModalJoinWaitlist />
+            <ModalJoinWaitlist buttonTitle="Me tenir au courant de l'aventure Spotlive 🥳" />
           </div>
         </div>
         <SpotliveValues />

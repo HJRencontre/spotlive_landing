@@ -4,16 +4,19 @@ import { NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { useRouter } from "next/router";
 
-import { fontSans, fontMono } from "@/config/fonts";
+import { fontMono, fontSans } from "@/config/fonts";
 import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
+  const bgColor = "bg-blueMidnight";
 
   return (
     <NextUIProvider navigate={router.push}>
       <NextThemesProvider>
-        <Component {...pageProps} />
+        <div className={`${bgColor} min-h-screen`}>
+          <Component {...pageProps} />
+        </div>
       </NextThemesProvider>
     </NextUIProvider>
   );

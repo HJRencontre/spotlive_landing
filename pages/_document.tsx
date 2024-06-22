@@ -2,7 +2,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html className="bg-blueMidnight" lang="en">
+    <Html lang="en" className="bg-blueMidnight">
       <Head />
       <body className="min-h-screen bg-blueMidnight font-sans antialiased text-white">
         <Main />
