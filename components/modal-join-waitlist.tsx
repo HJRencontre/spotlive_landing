@@ -10,12 +10,11 @@ import { MailIcon } from "./icons/MailIcon";
 interface ModalJoinWaitlistProps {
   buttonTitle: string;
 }
-
 export default function ModalJoinWaitlist({
   buttonTitle,
 }: ModalJoinWaitlistProps) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-
+  const headerTitle = "S'inscrire à la newsletter";
   return (
     <>
       <Button
@@ -29,7 +28,7 @@ export default function ModalJoinWaitlist({
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                S'inscrire à la newsletter
+                {headerTitle}
               </ModalHeader>
               <ModalBody>
                 <Input
