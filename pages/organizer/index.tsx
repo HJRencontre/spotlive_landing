@@ -1,9 +1,8 @@
 import QnA from "@/components/organizer/qna";
 import TitleOrganizer from "@/components/organizer/title";
 import DefaultLayout from "@/layouts/default";
-import { Button } from "@nextui-org/button";
 import { Spacer } from "@nextui-org/react";
-import { PopupButton } from "react-calendly";
+import { InlineWidget } from "react-calendly";
 
 export default function OrganiserPage() {
   const inovativePlatform = {
@@ -51,17 +50,8 @@ export default function OrganiserPage() {
         <Spacer y={20} />
         <div className="lg:grid grid-cols-2 gap-2 items-center justify-center">
           <h2 className="font-bold text-5xl text-center">Rencontrons-nous</h2>
-          <div className="flex items-center justify-center">
-            <Button
-              radius="full"
-              className="bg-lime items-center justify-center"
-            >
-              <PopupButton
-                url="https://calendly.com/h-jrencontre/30min"
-                rootElement={document.getElementById("root") ?? document.body}
-                text="Prendre rendez vous avec nos équipes"
-              />
-            </Button>
+          <div className="flex items-center justify-center h-full">
+            <InlineWidget url="https://calendly.com/h-jrencontre/30min" />
           </div>
         </div>
         <Spacer y={20} />
