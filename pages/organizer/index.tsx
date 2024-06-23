@@ -1,4 +1,3 @@
-import QnA from "@/components/organizer/qna";
 import TitleOrganizer from "@/components/organizer/title";
 import DefaultLayout from "@/layouts/default";
 import { Spacer } from "@nextui-org/react";
@@ -15,7 +14,7 @@ export default function OrganiserPage() {
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center min-h-screen gap-4 py-8 md:py-10">
         <TitleOrganizer />
-        <div className="lg:grid grid-cols-2 items-center">
+        {/*         <div className="lg:grid grid-cols-2 items-center">
           <div className="flex flex-col justify-center">
             <h2 className="font-bold card-title text-2xl">
               {inovativePlatform.title}
@@ -24,8 +23,8 @@ export default function OrganiserPage() {
               {inovativePlatform.description}
             </p>
           </div>
-        </div>
-        <div className="lg:grid grid-cols-2 items-center">
+        </div> */}
+        {/*         <div className="lg:grid grid-cols-2 items-center">
           <div className="flex flex-col justify-center">
             <h2 className="font-bold card-title text-2xl">Restez informés</h2>
             <p className="text-justify text-white">
@@ -35,8 +34,8 @@ export default function OrganiserPage() {
               Enim, eveniet officia. Officiis, maiores enim.
             </p>
           </div>
-        </div>
-        <div className="lg:grid grid-cols-2 items-center">
+        </div> */}
+        {/*         <div className="lg:grid grid-cols-2 items-center">
           <div className="flex flex-col justify-center">
             <h2 className="font-bold card-title text-2xl">Restez informés</h2>
             <p className="text-justify text-white">
@@ -46,7 +45,7 @@ export default function OrganiserPage() {
               Enim, eveniet officia. Officiis, maiores enim.
             </p>
           </div>
-        </div>
+        </div> */}
         <Spacer y={20} />
         <div className="lg:grid grid-cols-2 gap-2 items-center justify-center">
           <h2 className="font-bold text-5xl text-center">Rencontrons-nous</h2>
@@ -55,7 +54,7 @@ export default function OrganiserPage() {
           </div>
         </div>
         <Spacer y={20} />
-        <QnA />
+        {/* <QnA /> */}
       </section>
     </DefaultLayout>
   );
