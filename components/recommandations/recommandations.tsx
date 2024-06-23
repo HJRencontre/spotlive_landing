@@ -28,7 +28,7 @@ export default function Recommandations() {
     {
       username: "Hoang.Q",
       date: "12 juin 2024",
-      avatar: "https://nextui.org/avatars/avatar-2.png",
+      avatar: "https://nextui.org/avatars/avatar-3.png",
       stars: "3stars.png",
       content:
         "Avant la pièce mes amis et moi avons exploré la bibliothèque, une vraie mine d’or littéraire ! La pièce était exceptionnelle, avec des acteurs époustouflants. Après le spectacle, nous avons prolongé la soirée au bar, où l’ambiance était super conviviale!",
@@ -36,7 +36,7 @@ export default function Recommandations() {
     {
       username: "Antoine.G",
       date: "4 mai 2024",
-      avatar: "https://nextui.org/avatars/avatar-2.png",
+      avatar: "https://nextui.org/avatars/avatar-4.png",
       stars: "5stars.png",
       content:
         "J'utilise Spotlive depuis quelques semaines maintenant. L'application est simple à utiliser et m'a permis de découvrir des événements auxquels je n'aurais jamais pensé participer auparavant. Je recommande !",

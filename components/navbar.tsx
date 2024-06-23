@@ -34,14 +34,14 @@ export const Navbar = () => {
       >
         {router.pathname !== "/organizer" ? (
           <NavbarItem className="hidden sm:flex">
-            <Link href="/organizer">
-              <Button
-                className="border-2 btn btn-outline text-lime border-lime bg-blueMidnight"
-                radius="full"
-              >
+            <Button
+              className="border-2 btn btn-outline  border-lime bg-blueMidnight"
+              radius="full"
+            >
+              <Link className="text-lime" href="/organizer">
                 Je suis organisateur
-              </Button>
-            </Link>
+              </Link>
+            </Button>
           </NavbarItem>
         ) : (
           <NavbarItem className="hidden sm:flex">

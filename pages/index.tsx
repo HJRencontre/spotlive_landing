@@ -31,7 +31,7 @@ export default function IndexPage() {
           </div>
           <Spacer y={8} />
           <div className="flex justify-center items-center lg:block">
-            <ModalJoinWaitlist buttonTitle="Me tenir au courant de l'aventure Spotlive 🥳" />
+            <ModalJoinWaitlist buttonTitle="Suivre l'aventure Spotlive 🥳" />
           </div>
         </div>
         <SpotliveValues />
@@ -41,6 +41,11 @@ export default function IndexPage() {
         <Features />
         <Spacer y={40} />
         <Recommandations />
+        <Spacer y={20} />
+        <div className="text-3xl justify-center items-center text-center">
+          <p className="pt-2">Alors, intéressés ?</p>
+          <ModalJoinWaitlist buttonTitle="Rejoignez-nous 🥳" />
+        </div>
       </section>
     </DefaultLayout>
   );

@@ -19,22 +19,16 @@ export default function DefaultLayout({
       </main>
       <footer>
         <div className="bg-lime text-blueMidnight flex flex-col items-center justify-center py-16 px-2">
-          <h1 className="font-bold text-5xl">Nous rejoindre</h1>
+          <h1 className="font-bold text-5xl">Organisateur</h1>
           <p className="mt-4 text-center py-4">
             Vous êtes un théâtre et souhaitez rejoindre Spotlive ou avez des
             questions ?
           </p>
-          <Link
-            className="text-lime"
-            href="https://calendly.com/h-jrencontre/30min"
-          >
-            <Button
-              className="border-2 btn btn-outline text-lime bg-blueMidnight"
-              radius="full"
-            >
+          <Button className="text-lime bg-blueMidnight" radius="full">
+            <Link className="text-lime" href="/organizer">
               Rejoignez-nous
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         </div>
 
         <div className="bg-white text-blueMidnight flex flex-col items-center justify-center py-16">
